@@ -50,11 +50,7 @@ public abstract class Fighter {
 	 * @return
 	 */
 	public boolean isAlive() {
-		if (this.hitPoint > 0) {
-			return true;
-		} else {
-			return false;
-		}
+		return this.hitPoint > 0;
 	}
 
 	/**
